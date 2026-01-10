@@ -19,3 +19,21 @@
   `user_wallet_address + token_mint_address => associated_token_account_address`
 
 ![ATA](./img/ATA.png)
+
+# 命令
+
+## 创建 mint
+
+`spl-token create-token`
+
+## 为钱包创建 token account
+
+`spl-token create-account <TokenMint>`
+
+## mint token 到本地钱包
+
+`spl-token mint <TOKEN_MINT> 6000000`
+
+# token2022 命令
+
+`spl-token create-token --program-id TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --enable-metadata`
